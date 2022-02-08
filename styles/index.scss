@@ -1,11 +1,12 @@
-@import 'header.scss', 'variables.scss', 'breakpoints.scss', 'footer.scss', 'common.scss', 'headline.scss', 'about', 'customers';
+@import 'header', 'breakpoints', 'footer', 'common', 'headline.scss', 'about', 'customers',
+  'features';
 * {
   box-sizing: border-box;
 }
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
-  color: #2B292D;
+  color: #2b292d;
 }
 .page {
   display: flex;
