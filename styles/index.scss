@@ -1,4 +1,4 @@
-@import 'header.scss', 'variables.scss', 'breakpoints.scss';
+@import 'header.scss', 'variables.scss', 'breakpoints.scss', 'footer.scss';
 * {
   box-sizing: border-box;
 }
@@ -7,8 +7,11 @@ html {
   font-family: 'Work Sans', sans-serif;
 }
 .page {
+  display: flex;
+  flex-direction: column;
   width: 1400px;
   margin: auto;
+  min-height: 100vh;
 }
 .top-section {
   padding-top: 39px;
