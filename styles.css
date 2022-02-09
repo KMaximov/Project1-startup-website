@@ -3,6 +3,7 @@
   width: 1140px;
   height: 62px;
   margin: auto;
+  align-items: center;
 }
 .header_navigation {
   margin-left: auto;
@@ -327,13 +328,13 @@
   filter: drop-shadow(0px 4px 16px rgba(44, 50, 65, 0.08));
 }
 
-.audiences {
+.audience {
   display: flex;
   width: 1400px;
   flex-direction: column;
   background-color: #00a1c612;
 }
-.audiences_content {
+.audience_content {
   display: flex;
   width: 555px;
   margin: 0 auto;
@@ -341,7 +342,7 @@
   justify-content: center;
   align-items: center;
 }
-.audiences_subtitle {
+.audience_subtitle {
   text-align: center;
   margin-top: 108px;
   line-height: 34px;
@@ -349,7 +350,7 @@
   font-weight: 700;
   margin-bottom: 24px;
 }
-.audiences_title {
+.audience_title {
   margin: 0;
   margin-bottom: 30px;
   font-weight: 700;
@@ -358,24 +359,24 @@
   text-align: center;
   letter-spacing: -0.5px;
 }
-.audiences_description {
+.audience_description {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   text-align: center;
   margin: 0 0 34px 0;
 }
-.audiences_action {
+.audience_action {
   margin-bottom: 111px;
 }
-.audiences_image-content {
+.audience_image-content {
   display: flex;
   width: 1140px;
   margin: auto;
   justify-content: space-between;
   margin-bottom: 110px;
 }
-.audiences_article {
+.audience_article {
   height: 300px;
   width: 262px;
   background-color: white;
@@ -383,14 +384,14 @@
   margin: 0;
   margin-right: 30px;
 }
-.audiences_article:last-child {
+.audience_article:last-child {
   margin-right: 0;
 }
-.audiences_article-image {
+.audience_article-image {
   display: flex;
   margin: 22px auto;
 }
-.audiences_article-text {
+.audience_article-text {
   display: flex;
   justify-content: center;
   font-weight: 700;
@@ -398,7 +399,7 @@
   line-height: 28px;
   margin: 0;
 }
-.audiences_article:hover {
+.audience_article:hover {
   background-color: #3141c5;
   color: #ffffff;
 }
