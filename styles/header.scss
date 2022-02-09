@@ -4,6 +4,7 @@
   height: 62px;
   margin: auto;
   align-items: center;
+  justify-content: center;
   &_navigation {
     margin-left: auto;
     margin-top: 7px;
@@ -21,18 +22,19 @@
         margin-right: 0;
       }
     }
-    &-arrow {
-      display: inline-block;
-      height: 5px;
-      width: 8px;
-      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-      margin-left: 11px;
-    }
+    // &-arrow {
+    //   display: inline-block;
+    //   height: 5px;
+    //   width: 8px;
+    //   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    //   margin-left: 11px;
+    // }
   }
 }
 
 .logo {
   display: flex;
+  margin-left: 11px;
   &_image {
     height: 60px;
     width: 60px;
