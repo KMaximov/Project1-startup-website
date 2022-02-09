@@ -154,6 +154,19 @@
   border-radius: 2px;
   border: none;
 }
+.action_button-learn {
+  margin-left: 10px;
+  width: 158px;
+  height: 48px;
+  border-radius: 2px;
+  color: #3040c4;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 13px;
+  border: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
 
 .headline {
   position: relative;
@@ -195,17 +208,6 @@
 .headline_actions {
   display: flex;
   margin-top: 58px;
-}
-.headline_button-learn {
-  margin-left: 10px;
-  width: 158px;
-  height: 48px;
-  border-radius: 2px;
-  color: #3040C4;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 13px;
-  border: none;
 }
 
 .about {
@@ -255,6 +257,7 @@
   display: flex;
   width: 1140px;
   margin: auto;
+  padding-bottom: 110px;
 }
 .features_column {
   width: 459px;
@@ -322,6 +325,82 @@
   position: absolute;
   right: 0;
   filter: drop-shadow(0px 4px 16px rgba(44, 50, 65, 0.08));
+}
+
+.audiences {
+  display: flex;
+  width: 1400px;
+  flex-direction: column;
+  background-color: #00a1c612;
+}
+.audiences_content {
+  display: flex;
+  width: 555px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.audiences_subtitle {
+  text-align: center;
+  margin-top: 108px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.audiences_title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+.audiences_description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  margin: 0 0 34px 0;
+}
+.audiences_action {
+  margin-bottom: 111px;
+}
+.audiences_image-content {
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+.audiences_article {
+  height: 300px;
+  width: 262px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0;
+  margin-right: 30px;
+}
+.audiences_article:last-child {
+  margin-right: 0;
+}
+.audiences_article-image {
+  display: flex;
+  margin: 22px auto;
+}
+.audiences_article-text {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+}
+.audiences_article:hover {
+  background-color: #3141c5;
+  color: #ffffff;
 }
 
 * {

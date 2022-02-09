@@ -1,0 +1,75 @@
+.audiences {
+  display: flex;
+  width: 1400px;
+  flex-direction: column;
+  background-color: #00a1c612;
+  &_content {
+    display: flex;
+    width: 555px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &_subtitle {
+    text-align: center;
+    margin-top: 108px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  &_title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+  }
+  &_description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin: 0 0 34px 0;
+  }
+  &_action {
+    margin-bottom: 111px;
+  }
+  &_image-content {
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 110px;
+  }
+  &_article {
+    height: 300px;
+    width: 262px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0;
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &-image {
+      display: flex;
+      margin: 22px auto;
+    }
+    &-text {
+      display: flex;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      margin: 0;
+    }
+    &:hover {
+      background-color: #3141c5;
+      color: #ffffff;
+    }
+  }
+}
