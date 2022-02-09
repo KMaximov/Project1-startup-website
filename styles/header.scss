@@ -18,9 +18,7 @@
       &-selected {
         font-weight: 700;
       }
-      &-last {
-        margin-right: 0;
-      }
+
     }
     // &-arrow {
     //   display: inline-block;
@@ -34,7 +32,7 @@
 
 .logo {
   display: flex;
-  margin-left: 11px;
+  margin-left: 15px;
   &_image {
     height: 60px;
     width: 60px;
