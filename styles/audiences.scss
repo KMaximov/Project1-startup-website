@@ -1,6 +1,6 @@
 .audience {
   display: flex;
-  width: 1400px;
+  width: $sw;
   flex-direction: column;
   background-color: #00a1c612;
   &_content {
@@ -40,7 +40,7 @@
   }
   &_image-content {
     display: flex;
-    width: 1140px;
+    width: $mw;
     margin: auto;
     justify-content: space-between;
     margin-bottom: 110px;

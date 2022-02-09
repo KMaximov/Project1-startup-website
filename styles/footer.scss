@@ -3,7 +3,7 @@
   flex-direction: column;
   margin-top: auto;
   &_navigation {
-    width: 1140px;
+    width: $mw;
     margin: 0 auto;
     height: 338px;
     display: flex;
@@ -29,7 +29,7 @@
   }
   &_links {
     display: flex;
-    width: 1140px;
+    width: $mw;
     height: 50px;
     margin: 0 auto;
     align-items: center;
