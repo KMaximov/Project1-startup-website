@@ -1,5 +1,5 @@
 @import 'header', 'breakpoints', 'footer', 'common', 'headline.scss', 'about', 'customers',
-  'features', 'audiences', 'inbox', 'communication', 'feedback', 'hiring', 'variables';
+  'features', 'order', 'audiences', 'inbox', 'communication', 'feedback', 'hiring', 'variables';
 * {
   box-sizing: border-box;
 }
@@ -10,11 +10,10 @@ html {
 }
 .page {
   width: 100%;
-  overflow-x: hidden;
   @include for-large-up {
     display: flex;
     flex-direction: column;
-    width: $sw;
+    max-width: $sw;
     margin: auto;
     min-height: 100vh;
   }

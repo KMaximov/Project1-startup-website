@@ -1,11 +1,7 @@
 .footer {
-  visibility: hidden;
   display: flex;
   flex-direction: column;
   margin-top: auto;
-  @include for-large-up {
-    visibility: visible;
-  }
   &__navigation {
     margin: 0 auto;
     display: flex;
