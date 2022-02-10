@@ -1,5 +1,5 @@
 @import 'header', 'breakpoints', 'footer', 'common', 'headline.scss', 'about', 'customers',
-  'features', 'audiences', 'inbox', 'communication', 'feedback', 'hiring';
+  'features', 'audiences', 'inbox', 'communication', 'feedback', 'hiring', 'variables';
 * {
   box-sizing: border-box;
 }
@@ -11,20 +11,17 @@ html {
 .page {
   width: 100%;
   overflow-x: hidden;
-}
-.top__section {
-  background-color: #f3c6bd;
-}
-
-@media screen and(min-width:321px) {
-  .page {
+  @include for-large-up {
     display: flex;
     flex-direction: column;
     width: $sw;
     margin: auto;
     min-height: 100vh;
   }
-  .top__section {
+}
+.top__section {
+  background-color: #f3c6bd;
+  @include for-large-up {
     padding-top: 39px;
   }
 }
