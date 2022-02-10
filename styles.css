@@ -400,29 +400,29 @@
   width: 1400px;
   background-color: #fcf0e3;
 }
-.inbox_banner-container {
+.inbox__banner-container {
   display: flex;
   flex-direction: column;
   padding: 142px 0 101px 193px;
 }
-.inbox_banner-title {
+.inbox__banner-title {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   margin: 15px auto 0;
 }
-.inbox_content {
+.inbox__content {
   display: flex;
   flex-direction: column;
   width: 519px;
   margin: 0;
   margin-left: 164px;
 }
-.inbox_content-text {
+.inbox__content-text {
   width: 462px;
   margin-left: 28px;
 }
-.inbox_subtitle {
+.inbox__subtitle {
   color: #f1592b;
   font-weight: 700;
   font-size: 22px;
@@ -430,7 +430,7 @@
   margin: 0;
   margin-top: 115px;
 }
-.inbox_title {
+.inbox__title {
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
@@ -438,45 +438,45 @@
   margin: 0;
   margin-top: 24px;
 }
-.inbox_description {
+.inbox__description {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   margin: 30px 0 44px 0;
 }
-.inbox_quote {
+.inbox__quote {
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
   border-bottom: 4px solid #0185D0;
 }
-.inbox_quote-text {
+.inbox__quote-text {
   margin: 30px 30px 0 30px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
-.inbox_quote-img {
+.inbox__quote-img {
   width: 40px;
   height: 40px;
   margin: 28px 11px 0 29px;
 }
-.inbox_quote-autchor {
+.inbox__quote-autchor {
   display: flex;
   margin-bottom: 26px;
 }
-.inbox_quote-autchor-text {
+.inbox__quote-autchor-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 26px;
 }
-.inbox_quote-autchor-name {
+.inbox__quote-autchor-name {
   font-weight: 700;
   font-size: 16px;
   margin: 0;
 }
-.inbox_quote-autchor-description {
+.inbox__quote-autchor-description {
   font-weight: 400;
   margin: 0;
 }
