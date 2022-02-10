@@ -9,13 +9,22 @@ html {
   color: #2b292d;
 }
 .page {
-  display: flex;
-  flex-direction: column;
-  width: $sw;
-  margin: auto;
-  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 .top__section {
-  padding-top: 39px;
   background-color: #f3c6bd;
+}
+
+@media screen and(min-width:600px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+    width: $sw;
+    margin: auto;
+    min-height: 100vh;
+  }
+  .top__section {
+    padding-top: 39px;
+  }
 }
