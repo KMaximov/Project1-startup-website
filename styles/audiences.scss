@@ -3,7 +3,7 @@
   width: $sw;
   flex-direction: column;
   background-color: #00a1c612;
-  &_content {
+  &__content {
     display: flex;
     width: 555px;
     margin: 0 auto;
@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
   }
-  &_subtitle {
+  &__subtitle {
     text-align: center;
     margin-top: 108px;
     line-height: 34px;
@@ -19,7 +19,7 @@
     font-weight: 700;
     margin-bottom: 24px;
   }
-  &_title {
+  &__title {
     margin: 0;
     margin-bottom: 30px;
     font-weight: 700;
@@ -28,24 +28,24 @@
     text-align: center;
     letter-spacing: -0.5px;
   }
-  &_description {
+  &__description {
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
     text-align: center;
     margin: 0 0 34px 0;
   }
-  &_action {
+  &__action {
     margin-bottom: 111px;
   }
-  &_image-content {
+  &__image-content {
     display: flex;
     width: $mw;
     margin: auto;
     justify-content: space-between;
     margin-bottom: 110px;
   }
-  &_article {
+  &__article {
     height: 300px;
     width: 262px;
     background-color: white;
@@ -68,6 +68,7 @@
       margin: 0;
     }
     &:hover {
+      cursor: pointer;
       background-color: #3141c5;
       color: #ffffff;
     }
