@@ -5,7 +5,7 @@
   margin: auto;
   align-items: center;
   justify-content: center;
-  &_navigation {
+  &__navigation {
     margin-left: auto;
     margin-top: 7px;
     margin-right: 75px;
@@ -30,18 +30,18 @@
     width: 60px;
     margin-right: 15px;
   }
-  &_text {
+  &__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  &_name {
+  &__name {
     font-size: 20px;
     line-height: 25px;
     font-weight: bold;
     color: #2b292d;
   }
-  &_description {
+  &__description {
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
