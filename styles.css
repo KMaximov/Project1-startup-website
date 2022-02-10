@@ -169,11 +169,11 @@
   margin-top: 84px;
   padding-bottom: 77px;
 }
-.headline_content {
+.headline__content {
   position: absolute;
   z-index: 1;
 }
-.headline_title {
+.headline__title {
   height: 165px;
   width: 754px;
   font-weight: bold;
@@ -182,7 +182,7 @@
   letter-spacing: -0.5px;
   margin: 0;
 }
-.headline_description {
+.headline__description {
   margin-top: 34px;
   height: 102px;
   width: 456px;
@@ -190,7 +190,7 @@
   line-height: 34px;
   margin-bottom: 0;
 }
-.headline_banner {
+.headline__banner {
   position: relative;
   margin-left: auto;
   right: -105px;
@@ -198,7 +198,7 @@
   width: 796px;
   height: 448px;
 }
-.headline_actions {
+.headline__actions {
   display: flex;
   margin-top: 58px;
 }
