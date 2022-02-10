@@ -2,32 +2,32 @@
   display: flex;
   flex-direction: column;
   margin-top: auto;
-  &_navigation {
+  &__navigation {
     width: $mw;
     margin: 0 auto;
     height: 338px;
     display: flex;
   }
-  &_downloads {
+  &__downloads {
     margin-top: 25px;
     &-item {
       margin-right: 10px;
     }
   }
-  &_description {
+  &__description {
     line-height: 26px;
     font-size: 18px;
     width: 360px;
     margin-top: 26px;
     color: rgba(43, 41, 45, 0.6);
   }
-  &_line {
+  &__line {
     border: 1px solid #2b292d;
     width: 100%;
     opacity: 0.1;
     margin: 0;
   }
-  &_links {
+  &__links {
     display: flex;
     width: $mw;
     height: 50px;
@@ -40,7 +40,7 @@
       }
     }
   }
-  &_terms {
+  &__terms {
     font-size: 14px;
     line-height: 50px;
     &-item {
@@ -50,11 +50,11 @@
     }
   }
 }
-.about_company {
+.about__company {
   margin-top: 44px;
 }
 
-.additional_navigation {
+.additional__navigation {
   display: flex;
   margin-top: 60px;
   margin-left: auto;
@@ -62,7 +62,7 @@
     margin-right: 29px;
   }
 }
-.nav_list {
+.nav__list {
   width: 265px;
   &-title {
     font-weight: bold;
