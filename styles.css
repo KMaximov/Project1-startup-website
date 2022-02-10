@@ -484,15 +484,15 @@
 .communication {
   width: 1400px;
 }
-.communication_container {
+.communication__container {
   margin: 0 130px;
   width: 1144px;
 }
-.communication_container-main {
+.communication__container-main {
   display: flex;
   margin-top: 110px;
 }
-.communication_subtitle {
+.communication__subtitle {
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
@@ -500,7 +500,7 @@
   margin: 0;
   margin-top: 13px;
 }
-.communication_title {
+.communication__title {
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
@@ -508,26 +508,26 @@
   margin: 0;
   margin-top: 24px;
 }
-.communication_description {
+.communication__description {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   margin: 30px 0 39px 0;
 }
-.communication_banner {
+.communication__banner {
   margin: 0 63px 0 193px;
   text-align: center;
 }
-.communication_banner-image {
+.communication__banner-image {
   margin: 0;
   margin-bottom: 15px;
 }
-.communication_banner-title {
+.communication__banner-title {
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
 }
-.communication_cards {
+.communication__cards {
   display: flex;
   margin: 0;
   margin-top: 68px;
@@ -535,14 +535,14 @@
   line-height: 26px;
   font-weight: 400;
 }
-.communication_cards-item {
+.communication__cards-item {
   margin-right: 30px;
 }
-.communication_cards-item-link {
+.communication__cards-item-link {
   margin: 11px 0 0 0;
   font-weight: 700;
 }
-.communication_cards-item:last-child {
+.communication__cards-item:last-child {
   margin-right: 0;
 }
 

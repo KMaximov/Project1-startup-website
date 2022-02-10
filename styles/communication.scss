@@ -1,6 +1,6 @@
 .communication {
   width: $sw;
-  &_container {
+  &__container {
     margin: 0 130px;
     width: 1144px;
     &-main {
@@ -8,7 +8,7 @@
       margin-top: 110px;
     }
   }
-  &_subtitle {
+  &__subtitle {
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
@@ -16,7 +16,7 @@
     margin: 0;
     margin-top: 13px;
   }
-  &_title {
+  &__title {
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
@@ -24,13 +24,13 @@
     margin: 0;
     margin-top: 24px;
   }
-  &_description {
+  &__description {
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
     margin: 30px 0 39px 0;
   }
-  &_banner {
+  &__banner {
     margin: 0 63px 0 193px;
     text-align: center;
     &-image {
@@ -43,7 +43,7 @@
       color: rgba(43, 41, 45, 0.6);
     }
   }
-  &_cards {
+  &__cards {
     display: flex;
     margin: 0;
     margin-top: 68px;
