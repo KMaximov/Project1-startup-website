@@ -1,26 +1,26 @@
 .feedback {
   position: relative;
   border-bottom: 1px solid #00000019;
-  &_banner {
+  &__banner {
     position: absolute;
     bottom: 0;
     right: 25px;
   }
-  &_content {
+  &__content {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: $mw;
     align-items: center;
   }
-  &_title {
+  &__title {
     margin: 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     color: #3142c6;
   }
-  &_description {
+  &__description {
     margin: 28px 0 0 0;
     width: 750px;
     font-weight: 400;
@@ -28,7 +28,7 @@
     line-height: 34px;
     text-align: center;
   }
-  &_author {
+  &__author {
     margin: 34px 0 0 0;
     text-align: center;
     &-name {
@@ -42,7 +42,7 @@
       opacity: 0.5;
     }
   }
-  &_slider {
+  &__slider {
     margin: 38px 0 61px 0;
   }
 }
