@@ -1,6 +1,6 @@
 .hiring {
   width: $sw;
-  &_form {
+  &__form {
     display: flex;
     flex-direction: column;
     margin: 0 auto 110px auto;
@@ -8,14 +8,14 @@
     align-items: center;
     width: 750px;
   }
-  &_title {
+  &__title {
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
     margin: 0;
   }
-  &_description {
+  &__description {
     width: 555px;
     font-weight: 400;
     font-size: 24px;
@@ -23,7 +23,7 @@
     text-align: center;
     margin: 20px 0 0 0;
   }
-  &_button {
+  &__button {
     background-color: #3040c4;
     color: #ffffff;
     width: 247px;
@@ -35,7 +35,7 @@
     border: none;
     margin: 28px 0 0 0;
   }
-  &_later {
+  &__later {
     margin: 110px 0 0 0;
     height: 283px;
     width: 750px;

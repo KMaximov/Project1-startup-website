@@ -599,7 +599,7 @@
 .hiring {
   width: 1400px;
 }
-.hiring_form {
+.hiring__form {
   display: flex;
   flex-direction: column;
   margin: 0 auto 110px auto;
@@ -607,14 +607,14 @@
   align-items: center;
   width: 750px;
 }
-.hiring_title {
+.hiring__title {
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.5px;
   margin: 0;
 }
-.hiring_description {
+.hiring__description {
   width: 555px;
   font-weight: 400;
   font-size: 24px;
@@ -622,7 +622,7 @@
   text-align: center;
   margin: 20px 0 0 0;
 }
-.hiring_button {
+.hiring__button {
   background-color: #3040c4;
   color: #ffffff;
   width: 247px;
@@ -634,7 +634,7 @@
   border: none;
   margin: 28px 0 0 0;
 }
-.hiring_later {
+.hiring__later {
   margin: 110px 0 0 0;
   height: 283px;
   width: 750px;
