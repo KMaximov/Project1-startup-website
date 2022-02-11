@@ -11,4 +11,4 @@ Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
   * [BEM methodology] (https://en.bem.info/methodology/)
 
 ### Author
-* [Mykola Maximov] (https://github.com/KMaximov)
+  * [Mykola Maximov] (https://github.com/KMaximov)
