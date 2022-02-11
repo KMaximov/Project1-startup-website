@@ -777,12 +777,13 @@
 .audience__subtitle {
   text-align: center;
   line-height: 34px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   margin: 0;
 }
 @media screen and (min-width: 321px) {
   .audience__subtitle {
+    font-size: 24px;
     margin-top: 108px;
     margin-bottom: 24px;
   }
@@ -841,6 +842,7 @@
 }
 .audience__button:last-child {
   margin-top: 12px;
+  color: #000;
 }
 @media screen and (min-width: 321px) {
   .audience__button:last-child {
@@ -883,17 +885,26 @@
     margin: 0;
   }
 }
-.audience__article-image {
-  display: flex;
-  margin: 22px auto;
+@media screen and (min-width: 321px) {
+  .audience__article-image {
+    display: flex;
+    margin: 22px auto;
+  }
 }
 .audience__article-text {
-  display: flex;
-  justify-content: center;
+  display: block;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+@media screen and (min-width: 321px) {
+  .audience__article-text {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
 }
 .audience__article:hover {
   cursor: pointer;
