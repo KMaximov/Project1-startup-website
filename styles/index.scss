@@ -1,4 +1,4 @@
-@import 'header', 'breakpoints', 'footer', 'common', 'headline.scss', 'about', 'customers',
+@import 'breakpoints', 'common', 'header', 'footer', 'headline', 'about', 'customers',
   'features', 'order', 'audiences', 'inbox', 'communication', 'feedback', 'hiring', 'variables';
 * {
   box-sizing: border-box;
@@ -22,5 +22,6 @@ html {
   background-color: #f3c6bd;
   @include for-large-up {
     padding-top: 39px;
+    width: $sw;
   }
 }
