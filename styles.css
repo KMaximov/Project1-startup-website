@@ -206,7 +206,7 @@
 }
 @media screen and (min-width: 321px) {
   .footer__downloads-item {
-    margin-right: 5px;
+    margin-right: 20px;
   }
 }
 .footer__description {
