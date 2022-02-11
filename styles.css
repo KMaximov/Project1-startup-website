@@ -842,7 +842,7 @@
 }
 .audience__button:last-child {
   margin-top: 12px;
-  color: #000;
+  color: #000000;
   box-shadow: none;
   padding: 0;
 }
@@ -902,7 +902,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  margin-top: 19px;
+  margin-top: 18px;
   text-align: center;
 }
 @media screen and (min-width: 321px) {
