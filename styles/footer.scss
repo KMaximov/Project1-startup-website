@@ -53,9 +53,6 @@
     }
     &-item {
       margin-right: 10px;
-      @include for-large-up {
-        margin-right: 15px;
-      }
     }
   }
   &__description {
