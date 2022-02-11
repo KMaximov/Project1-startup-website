@@ -249,6 +249,7 @@
 }
 @media screen and (min-width: 321px) {
   .footer__links-social {
+    margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
   }
