@@ -138,13 +138,9 @@
   &-column {
     margin-top: 30px;
     @include for-large-up {
+      width: 265px;
       margin-top: 0px;
       margin-right: 29px;
-    }
-    &:last-child {
-      @include for-large-up {
-        margin-right: 0;
-      }
     }
   }
 }
