@@ -249,9 +249,8 @@
 }
 @media screen and (min-width: 321px) {
   .footer__links-social {
+    margin: 0;
     margin-left: auto;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 }
 .footer__links-social-item {
@@ -259,7 +258,7 @@
 }
 @media screen and (min-width: 321px) {
   .footer__links-social-item {
-    margin-left: 0px;
+    margin: 0;
     margin-left: 20px;
   }
 }
