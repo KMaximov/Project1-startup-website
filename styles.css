@@ -204,6 +204,11 @@
 .footer__downloads-item {
   margin-right: 10px;
 }
+@media screen and (min-width: 321px) {
+  .footer__downloads-item {
+    margin-right: 15px;
+  }
+}
 .footer__description {
   display: none;
   line-height: 26px;
@@ -249,7 +254,7 @@
 }
 @media screen and (min-width: 321px) {
   .footer__links-social {
-    margin: 0;
+    margin-bottom: 0;
     margin-left: auto;
   }
 }
@@ -305,6 +310,11 @@
     width: 265px;
     margin-top: 0px;
     margin-right: 29px;
+  }
+}
+@media screen and (min-width: 321px) {
+  .additional__navigation-column:last-child {
+    margin-right: 0;
   }
 }
 
