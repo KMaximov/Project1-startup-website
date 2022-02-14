@@ -768,11 +768,11 @@
     padding: 0;
   }
 }
-.audience__content {
+.audience__text {
   max-width: 100%;
 }
 @media screen and (min-width: 321px) {
-  .audience__content {
+  .audience__text {
     display: flex;
     width: 555px;
     margin: 0 auto;
@@ -873,7 +873,7 @@
     margin-bottom: 110px;
   }
 }
-.audience__article {
+.audience__figure {
   background-color: white;
   border-radius: 8px;
   padding: 22px 76px 33px 76px;
@@ -881,7 +881,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 321px) {
-  .audience__article {
+  .audience__figure {
     height: 300px;
     width: 262px;
     margin: 0;
@@ -889,21 +889,21 @@
     box-shadow: none;
   }
 }
-.audience__article:last-child {
+.audience__figure:last-child {
   margin-bottom: 50px;
 }
 @media screen and (min-width: 321px) {
-  .audience__article:last-child {
+  .audience__figure:last-child {
     margin: 0;
   }
 }
 @media screen and (min-width: 321px) {
-  .audience__article-image {
+  .audience__figure-image {
     display: flex;
     margin: 22px auto;
   }
 }
-.audience__article-text {
+.audience__figure-text {
   display: block;
   font-weight: 700;
   font-size: 22px;
@@ -912,13 +912,13 @@
   text-align: center;
 }
 @media screen and (min-width: 321px) {
-  .audience__article-text {
+  .audience__figure-text {
     display: flex;
     justify-content: center;
     margin: 0;
   }
 }
-.audience__article:hover {
+.audience__figure:hover {
   cursor: pointer;
   background-color: #3141c5;
   color: #ffffff;

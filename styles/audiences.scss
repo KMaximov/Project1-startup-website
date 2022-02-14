@@ -8,7 +8,7 @@
     width: $sw;
     padding: 0;
   }
-  &__content {
+  &__text {
     max-width: 100%;
     @include for-large-up {
       display: flex;
@@ -98,7 +98,7 @@
       margin-bottom: 110px;
     }
   }
-  &__article {
+  &__figure {
     background-color: white;
     border-radius: 8px;
     padding: 22px 76px 33px 76px;
