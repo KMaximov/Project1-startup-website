@@ -28,7 +28,7 @@
       font-size: 18px;
       margin-right: 50px;
       &-selected {
-        font-weight: 700;
+        font-weight: $bold-font;
       }
     }
   }
@@ -76,14 +76,14 @@
   &__name {
     font-size: 20px;
     line-height: 25px;
-    font-weight: bold;
+    font-weight: $bold-font;
     color: #2b292d;
   }
   &__description {
     display: none;
-    font-size: 18px;
+    font-size: $sfs;
     line-height: 25px;
-    font-weight: 400;
+    font-weight: $normal-font;
     opacity: 0.6;
     @include for-large-up {
       display: block;

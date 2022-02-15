@@ -17,15 +17,15 @@
     width: 555px;
   }
   &__title {
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: $bold-font;
+    font-size: $nfs;
     line-height: 32px;
     margin: 0;
   }
   &__text {
-    font-size: 22px;
+    font-size: $nfs;
     line-height: 32px;
-    font-weight: 400;
+    font-weight: $normal-font;
     margin: 0;
     margin-top: 6px;
   }

@@ -21,8 +21,8 @@
   &__subtitle {
     text-align: center;
     line-height: 34px;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: $nfs;
+    font-weight: $bold-font;
     margin: 0;
     @include for-large-up {
       font-size: 24px;
@@ -33,7 +33,7 @@
   &__title {
     margin: 0;
     margin-top: 17px;
-    font-weight: 700;
+    font-weight: $bold-font;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -47,7 +47,7 @@
     }
   }
   &__description {
-    font-weight: 400;
+    font-weight: $normal-font;
     font-size: 24px;
     line-height: 34px;
     text-align: center;
@@ -131,8 +131,8 @@
     }
     &-text {
       display: block;
-      font-weight: 700;
-      font-size: 22px;
+      font-weight: $bold-font;
+      font-size: $nfs;
       line-height: 28px;
       margin-top: 18px;
       text-align: center;

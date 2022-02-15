@@ -18,7 +18,7 @@
     }
   }
   &__title {
-    font-weight: 700;
+    font-weight: $bold-font;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -31,7 +31,7 @@
     }
   }
   &__text {
-    font-size: 22px;
+    font-size: $nfs;
     line-height: 32px;
     margin: 0;
     margin-top: 18px;
@@ -53,7 +53,7 @@
     height: 48px;
     width: 100%;
     text-align: center;
-    font-size: 18px;
+    font-size: $sfs;
     line-height: 13px;
     @include for-large-up {
       margin-top: 0;

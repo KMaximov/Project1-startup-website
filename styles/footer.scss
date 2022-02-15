@@ -25,14 +25,14 @@
         display: none;
       }
       &-text {
-        font-weight: 700;
+        font-weight: $bold-font;
         font-size: 20px;
         line-height: 25px;
         text-align: center;
       }
       &-description {
-        font-weight: 400;
-        font-size: 18px;
+        font-weight: $normal-font;
+        font-size: $sfs;
         line-height: 25px;
         text-align: center;
       }
@@ -58,7 +58,7 @@
   &__description {
     display: none;
     line-height: 26px;
-    font-size: 18px;
+    font-size: $sfs;
     width: 360px;
     margin-top: 26px;
     color: $color-grey;
@@ -153,8 +153,8 @@
 .nav__list {
   width: 265px;
   &-title {
-    font-weight: bold;
-    font-size: 22px;
+    font-weight: $bold-font;
+    font-size: $nfs;
     line-height: 28px;
     color: $color-light-black;
     margin: 0;
@@ -167,7 +167,7 @@
     margin-top: 18px;
   }
   &-item {
-    font-size: 18px;
+    font-size: $sfs;
     line-height: 30px;
   }
 }

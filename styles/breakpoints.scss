@@ -2,6 +2,12 @@ $sw: 1400px;
 $mw: 1140px;
 $lg: 321px;
 
+$bold-font: 700;
+$normal-font: 400;
+
+$nfs: 22px;
+$sfs: 18px;
+
 @mixin for-large-up {
   @media screen and(min-width:$lg) {
     @content;

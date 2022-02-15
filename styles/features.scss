@@ -8,15 +8,15 @@
     display: none;
   }
   &__subtitle {
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: $bold-font;
+    font-size: $nfs;
     line-height: 34px;
     color: $color-green;
   }
   &__title {
     margin: 0;
     margin-top: 17px;
-    font-weight: 700;
+    font-weight: $bold-font;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.357143px;
@@ -63,16 +63,16 @@
   }
   &__subtitle {
     color: $color-green;
-    font-size: 22px;
+    font-size: $nfs;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: $bold-font;
     margin: 0;
   }
   &__title {
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
-    font-weight: 700;
+    font-weight: $bold-font;
     margin-top: 24px;
     margin-bottom: 0;
   }
@@ -88,7 +88,7 @@
     margin-top: 42px;
   }
   &__advantage-description {
-    font-size: 18px;
+    font-size: $sfs;
     line-height: 26px;
     margin-top: 8px;
     margin-bottom: 0;
@@ -96,10 +96,10 @@
     border-bottom: 3px solid $color-blue;
   }
   &__advantage-title {
-    font-size: 22px;
+    font-size: $nfs;
     line-height: 26px;
     color: $color-blue;
-    font-weight: 700;
+    font-weight: $bold-font;
     margin: 0;
     margin-left: 15px;
   }
@@ -109,8 +109,8 @@
     margin-top: 21px;
     padding-bottom: 22px;
     &-text {
-      font-size: 22px;
-      font-weight: 700;
+      font-size: $nfs;
+      font-weight: $bold-font;
       line-height: 26px;
       margin-left: 15px;
     }
