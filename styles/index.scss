@@ -1,5 +1,3 @@
-@import 'breakpoints', 'variables', 'common', 'header', 'footer', 'headline', 'about', 'customers',
-  'features', 'order', 'audiences';
 * {
   box-sizing: border-box;
 }
@@ -10,18 +8,20 @@ html {
 }
 .page {
   width: 100%;
-  @include for-large-up {
+  @media screen and(min-width:321px) {
     display: flex;
     flex-direction: column;
-    max-width: $sw;
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
   }
 }
 .top__section {
   background-color: #f3c6bd;
-  @include for-large-up {
+  @media screen and(min-width:321px) {
     padding-top: 39px;
-    width: $sw;
+    width: 1400px;
   }
 }
+@import 'breakpoints', 'variables', 'common', 'header', 'footer', 'headline', 'about', 'customers',
+  'features', 'order', 'audiences';
